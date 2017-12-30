@@ -2,20 +2,25 @@ body { font-family: 'Helvetica Neue', Helvetica, Arial;}
 hr { clear:both; border:0px; }
 background { display:block; background-image:url('../media/content/background.jpg'); position: fixed; width:100vw; height:100vh; top:0px; background-size:cover;background-position: center;}
 header { display: block; position:fixed; top:0px; width:100vw}
-header img { width:100%; margin-bottom:30px;}
+header img { width:100%; margin-bottom:45px;}
 
 core { display:block; position:relative; background:white;max-width: 600px;margin:0px auto;padding:60px; margin-top:80vh; margin-bottom:100px; padding-bottom:30px;}
-core p { margin-bottom: 30px; font-family: 'Helvetica Neue', Helvetica, Arial; line-height: 20px; font-size:14px; max-width: 350px;}
+core p { margin-bottom: 45px; font-family: 'Helvetica Neue', Helvetica, Arial; line-height: 20px; font-size:14px; max-width: 350px;}
+core p a { font-weight: bold }
+core p a:hover { text-decoration: underline; }
+core p i { font-style: italic }
 core img { max-width:100%; margin-bottom:45px}
-core h1 { font-size:20px; font-size: 30px;margin-bottom:30px;line-height: 34px;font-weight: 600}
+core h1 { font-size:20px; font-size: 30px;margin-bottom:45px;line-height: 34px;font-weight: 600}
 core hr { clear:both;}
 
-core list { display: block;columns: 2;font-size:14px;line-height: 25px;margin-bottom:30px;border-top:1px solid black;padding-top:30px; }
+core list { display: block;columns: 2;font-size:14px;line-height: 25px;margin-bottom:45px;border-top:1px solid black;padding-top:30px; }
 core list ln { display:block;}
 core list ln.parent { font-weight:bold; }
 core list ln a { text-decoration:underline}
 
-gallery { display: block; margin-bottom: 30px}
+core list.presskit { background: #eee;margin-left:-60px;width:calc(100% + 0px);padding:30px 60px;border-top:0px}
+
+gallery { display: block; margin-bottom: 45px}
 gallery img { display: block;float:left;max-width: 50%;margin-bottom:0px }
 
 quote { display: block; margin-bottom:45px; }
@@ -23,14 +28,19 @@ quote p { text-align: center;max-width: 100%;font-size:16px;font-style:italic;li
 quote i { display: block;margin-bottom:20px;margin-top:-15px;text-align: center;font-size:12px; }
 quote i:before { content: "- " } 
 
-iframe { display: block; border-radius: 3px; overflow: hidden; margin-bottom:30px; }
+iframe { display: block; border-radius: 3px; overflow: hidden; margin-bottom:45px; }
 
-core code { display: block; white-space: pre; font-family: courier; background:#eee; padding:5px 15px; font-size:12px; margin-bottom:30px; }
+core code { display: block; white-space: pre; font-family: courier; background:#eee; padding:5px 15px; font-size:12px; margin-bottom:45px; }
 
 core list.credit { background: #000; color:white; padding:15px 30px; border-radius: 3px; font-size:12px; }
 
 core > img:first-child { max-width: calc(100% + 120px);margin-left: -60px;margin-top: -60px }
 core p.details { columns: 2;font-size: 12px;max-width: 100%;}
+core p.main { font-size: 18px;line-height: 24px;max-width:400px;margin-bottom:54px }
+
+a.logo { width: 100px;height: 100px;display: block;margin: 80px auto 40px;background-image: url(../media/content/logo.svg);background-size: cover;background-position: center; }
+
+/* CUSTOM */
 
 core .portraits { background:red}
 core .portraits > div { width: 25%; display: block; float: left; background-image: url(../media/portraits/lancer.jpg); height: 330px; background-size: contain; background-repeat: no-repeat; background-position: center top; position:relative; margin-bottom:45px}
@@ -44,5 +54,3 @@ core .portraits > div.patience { background-image: url(../media/portraits/patien
 core .portraits > div.patience .sprite { background-image: url(../media/sprites/patience.gif); }
 core .portraits > div.sin { background-image: url(../media/portraits/sin.jpg); }
 core .portraits > div.sin .sprite { background-image: url(../media/sprites/sin.gif); }
-
-a.logo { width: 100px;height: 100px;display: block;margin: 80px auto 40px;background-image: url(../media/content/logo.svg);background-size: cover;background-position: center; }
