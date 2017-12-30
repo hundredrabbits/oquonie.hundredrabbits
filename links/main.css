@@ -45,9 +45,4 @@ core .portraits > div.patience .sprite { background-image: url(../media/sprites/
 core .portraits > div.sin { background-image: url(../media/portraits/sin.jpg); }
 core .portraits > div.sin .sprite { background-image: url(../media/sprites/sin.gif); }
 
-
-
-
-
-
-
+a.logo { width: 100px;height: 100px;display: block;margin: 80px auto 40px;background-image: url(../media/content/logo.svg);background-size: cover;background-position: center; }
