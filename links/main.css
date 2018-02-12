@@ -58,3 +58,5 @@ core .portraits > div.patience { background-image: url(../media/portraits/patien
 core .portraits > div.patience .sprite { background-image: url(../media/sprites/patience.gif); }
 core .portraits > div.sin { background-image: url(../media/portraits/sin.jpg); }
 core .portraits > div.sin .sprite { background-image: url(../media/sprites/sin.gif); }
+
+.itunes { width:120px; margin:0px auto 45px; display: block; }
